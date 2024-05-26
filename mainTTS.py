@@ -9,7 +9,7 @@ from llamaapi import LlamaAPI
 import json
 from gtts import gTTS
 
-llama = LlamaAPI("LL-74vx4n9A2DMUkNemnLyTrXHcHbK1cPMwTTOoJYvowylU5gNPfv1WAxIJIvRNlbos")
+llama = LlamaAPI("<YOUR API>") #https://console.llama-api.com/account/my-account
 
 recognizer = sr.Recognizer()
 
